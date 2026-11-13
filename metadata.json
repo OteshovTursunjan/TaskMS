@@ -1,0 +1,6 @@
+{
+  "name": "SprintFlow",
+  "description": "Personal developer sprint Kanban tracker with deadlines and a built-in 25/5 Pomodoro focus timer",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

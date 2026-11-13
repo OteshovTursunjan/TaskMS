@@ -1,0 +1,108 @@
+<resources>
+    <string name="app_name">SprintFlow</string>
+
+    <!-- Navigation -->
+    <string name="nav_kanban">Канбан</string>
+    <string name="nav_focus">Фокус</string>
+
+    <!-- Sprint Header -->
+    <string name="sprint_default_name">Sprint #1</string>
+    <string name="sprint_default_goal">Сфокусированная поставка ключевых фич</string>
+    <string name="sprint_week_1">1 неделя</string>
+    <string name="sprint_week_2">2 недели</string>
+    <string name="sprint_days_left">Осталось %1$d дн.</string>
+    <string name="sprint_last_day">Последний день</string>
+    <string name="sprint_ended">Спринт завершён</string>
+    <string name="sprint_progress_label">Выполнено %1$d из %2$d задач</string>
+    <string name="sprint_pomodoro_total">%1$d фокус-сессий</string>
+    <string name="sprint_edit_cd">Настроить спринт</string>
+
+    <!-- Kanban Columns & Filters -->
+    <string name="filter_all">Все</string>
+    <string name="column_todo">To Do</string>
+    <string name="column_in_progress">In Progress</string>
+    <string name="column_done">Done</string>
+    <string name="search_tasks_hint">Поиск по задачам…</string>
+    <string name="view_mode_board">Колонки</string>
+    <string name="view_mode_list">Список</string>
+    <string name="view_mode_toggle_cd">Переключить вид доски</string>
+
+    <!-- Task Actions & Card -->
+    <string name="add_task_cta">Задача</string>
+    <string name="add_first_task_cta">Добавить первую задачу</string>
+    <string name="empty_sprint_title">Спринт готов к планированию</string>
+    <string name="empty_sprint_subtitle">Добавьте задачи разработки, назначьте дедлайны и запускайте 25-минутный Pomodoro-таймер прямо с карточки.</string>
+    <string name="empty_column_title">В колонке «%1$s» пока пусто</string>
+    <string name="empty_column_subtitle">Создайте новую задачу или перенесите карточку из другой колонки.</string>
+    <string name="focus_on_task">Фокус 25м</string>
+    <string name="move_to_column_cd">Переместить в %1$s</string>
+    <string name="edit_task_cd">Редактировать задачу</string>
+    <string name="delete_task">Удалить</string>
+
+    <!-- Deadlines -->
+    <string name="deadline_overdue">Просрочено (%1$s)</string>
+    <string name="deadline_today">Сегодня</string>
+    <string name="deadline_tomorrow">Завтра</string>
+    <string name="deadline_days_left">Через %1$d дн. (%2$s)</string>
+    <string name="deadline_none">Без дедлайна</string>
+
+    <!-- Priorities -->
+    <string name="priority_low">Низкий</string>
+    <string name="priority_medium">Средний</string>
+    <string name="priority_high">Высокий</string>
+    <string name="priority_critical">Критичный</string>
+
+    <!-- Categories -->
+    <string name="cat_feature">Feature</string>
+    <string name="cat_bug">Bug</string>
+    <string name="cat_refactor">Refactor</string>
+    <string name="cat_devops">DevOps</string>
+    <string name="cat_docs">Docs</string>
+
+    <!-- Task Editor Sheet -->
+    <string name="sheet_new_task">Новая задача</string>
+    <string name="sheet_edit_task">Редактировать задачу</string>
+    <string name="field_title_label">Название задачи</string>
+    <string name="field_title_placeholder">Например: Реализовать OAuth2 refresh</string>
+    <string name="field_desc_label">Технические заметки</string>
+    <string name="field_desc_placeholder">Критерии приёмки, ссылки на PR или детали…</string>
+    <string name="field_column_label">Колонка Канбана</string>
+    <string name="field_priority_label">Приоритет</string>
+    <string name="field_category_label">Тег</string>
+    <string name="field_deadline_label">Дедлайн</string>
+    <string name="deadline_pick_date">Выбрать дату</string>
+    <string name="deadline_sprint_end">Конец спринта</string>
+    <string name="field_est_pomodoros">Оценка Pomodoro (по 25 мин)</string>
+    <string name="save_task">Сохранить задачу</string>
+    <string name="cancel">Отмена</string>
+
+    <!-- Sprint Config Sheet -->
+    <string name="sheet_sprint_settings">Параметры спринта</string>
+    <string name="field_sprint_name">Название спринта</string>
+    <string name="field_sprint_goal">Цель спринта</string>
+    <string name="field_sprint_duration">Длительность</string>
+    <string name="sprint_start_today">Начать с сегодня</string>
+    <string name="save_sprint">Применить</string>
+
+    <!-- Pomodoro Focus Screen -->
+    <string name="pomodoro_phase_focus">ФОКУС • 25 МИН</string>
+    <string name="pomodoro_phase_break">ПЕРЕРЫВ • 5 МИН</string>
+    <string name="pomodoro_tab_focus">Фокус 25:00</string>
+    <string name="pomodoro_tab_break">Перерыв 05:00</string>
+    <string name="pomodoro_select_task_prompt">Выберите задачу для фокусировки</string>
+    <string name="pomodoro_no_task_hint">Таймер запустится без привязки, или выберите задачу из спринта</string>
+    <string name="pomodoro_change_task">Выбрать задачу</string>
+    <string name="pomodoro_start">Старт</string>
+    <string name="pomodoro_resume">Продолжить</string>
+    <string name="pomodoro_pause">Пауза</string>
+    <string name="pomodoro_reset">Сброс</string>
+    <string name="pomodoro_skip">Пропустить</string>
+    <string name="pomodoro_move_in_progress">Перевести в In Progress</string>
+    <string name="pomodoro_cycles_today">Сегодня циклов: %1$d</string>
+    <string name="pomodoro_focus_completed_banner">Сессия фокуса завершена! +1 Pomodoro. Время перерыва 5 мин.</string>
+    <string name="pomodoro_break_completed_banner">Перерыв окончен! Можно начинать новый цикл фокусировки.</string>
+    <string name="pomodoro_history_title">Журнал фокус-сессий</string>
+    <string name="pomodoro_history_empty">Завершённые 25-минутные сессии появятся здесь.</string>
+    <string name="pomodoro_free_session">Свободная сессия</string>
+    <string name="pomodoro_mini_open_cd">Открыть таймер</string>
+</resources>
